@@ -1,0 +1,57 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Personal Website - Contact Page">
+  <meta name="author" content="Ali">
+  <title>Contact Me - My Personal Website</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+  <header>
+    <h1>Contact Me</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="education.html">Education</a> |
+      <a href="schedule.html">Weekly Schedule</a> |
+      <a href="contact.html">Contact Me</a> |
+      <a href="questionnaire.html">Questionnaire</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Get in Touch</h2>
+    <form action="mailto:ahasanli19834@ada.edu.az" method="post" enctype="text/plain">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+
+      <label>Subscribe to Newsletter:</label>
+      <input type="checkbox" name="subscribe" value="yes"><br><br>
+
+      <label>Gender:</label><br>
+      <input type="radio" name="gender" value="male"> Male<br>
+      <input type="radio" name="gender" value="female"> Female<br><br>
+
+      <label for="topic">Topic:</label><br>
+      <select id="topic" name="topic">
+        <option value="feedback">Feedback</option>
+        <option value="collaboration">Collaboration</option>
+        <option value="other">Other</option>
+      </select><br><br>
+
+      <input type="submit" value="Send">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Personal Website</p>
+  </footer>
+</body>
+</html>
