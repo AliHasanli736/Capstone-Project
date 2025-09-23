@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Personal Website - Questionnaire Page">
+  <meta name="author" content="Ali">
+  <title>Questionnaire - My Personal Website</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+  <header>
+    <h1>Questionnaire</h1>
+    <nav>
+      <a href="index.html">Home</a> <br>
+      <a href="education.html">Education</a> <br>
+      <a href="schedule.html">Weekly Schedule</a> <br>
+      <a href="contact.html">Contact Me</a> <br>
+      <a href="questionnaire.html">Questionnaire</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Please fill out this questionnaire</h2>
+    <form action="mailto:ahasanli19834@ada.edu.az" method="post" enctype="text/plain">
+      <p>1. Do you like my website?</p>
+      <input type="radio" name="like_website" value="yes"> Yes
+      <input type="radio" name="like_website" value="no"> No
+      <input type="radio" name="like_website" value="a little bit"> A Little Bit <br>
+      <input type="radio" name="like_website" value="i dont want to say"> I Don't Want To Say<br><br>
+
+      <p>2. What sections do you find most useful? (check all that apply)</p>
+      <input type="checkbox" name="sections" value="home"> Home<br>
+      <input type="checkbox" name="sections" value="education"> Education<br>
+      <input type="checkbox" name="sections" value="schedule"> Weekly Schedule<br>
+      <input type="checkbox" name="sections" value="contact"> Contact Me<br><br>
+
+      <p>3. Rate my website (1-5):</p>
+      <input type="number" name="rating" min="1" max="5"><br><br>
+
+      <p>4. Additional comments:</p>
+      <textarea name="comments" rows="5" cols="30"></textarea><br><br>
+
+      <input type="submit" value="Submit Questionnaire">
+    </form>
+  </section>
+</body>
+</html>
