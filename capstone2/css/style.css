@@ -1,0 +1,55 @@
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+  width: 90%;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.main-nav { position: sticky; top: 0; background: rgba(255,255,255,0.95); padding:.5rem; z-index:999; }
+.main-nav ul{ display:flex; gap:.75rem; list-style:none; margin:0; padding:0; }
+.main-nav .nav-link{ padding:.5rem .75rem; text-decoration:none; color:#6b7280; border-radius:8px; font-weight:600; }
+.main-nav .nav-link:not(.active):hover{ color:#0b5fff; transform:translateY(-2px); }
+.main-nav .nav-link.active{ color:#0b5fff; background: rgba(11,95,255,0.06); }
+
+
+hr.custom{ width:60%; margin:1.5rem auto; border:0; border-top:4px dashed rgba(11,95,255,0.14); }
+
+
+.profile-pic{ width:200px; height:200px; border-radius:50%; object-fit:cover; display:block; margin:1rem auto; transition: transform .25s; }
+.profile-pic:hover, .profile-pic:focus{ transform: scale(1.1); }
+
+
+.table-edu{ width:100%; border-collapse:collapse; margin:1rem 0; }
+.table-edu th, .table-edu td{ padding:.65rem .8rem; border-bottom:1px solid rgba(11,95,255,0.06); }
+.table-edu thead th{ background: rgba(11,95,255,0.04); }
+
+
+ul.custom-list{ list-style:none; padding-left:0; }
+ul.custom-list li{ padding:.4rem 0; position:relative; padding-left:1.8rem; }
+ul.custom-list li::before{ content:"▹"; position:absolute; left:0; color:#0b5fff; }
+
+
+form.contact-form{ max-width:720px; margin:0 auto; display:flex; flex-direction:column; gap:.8rem; }
+input, textarea, select{ padding:.7rem; border-radius:8px; border:1px solid rgba(0,0,0,0.09); }
+input:focus, textarea:focus{ border-color:#0b5fff; box-shadow:0 4px 18px rgba(11,95,255,0.08); }
+
+
+.gallery-grid{ display:grid; grid-template-columns: repeat(3,1fr); gap:.75rem; }
+.gallery-grid img{ width:100%; height:220px; object-fit:cover; border-radius:8px; transition: transform .22s; }
+.gallery-grid img:hover{ transform: translateY(-6px); }
+
+
+@media (max-width:800px){ .gallery-grid{ grid-template-columns: repeat(2,1fr); } }
+@media (max-width:480px){ .gallery-grid{ grid-template-columns: 1fr; } }
+
+
+.container-float .sidebar{ float:left; width:30%; margin-right:2%; }
+.container-float .content-float{ float:right; width:68%; }
+.container-flex{ display:flex; gap:1rem; }
+.container-grid{ display:grid; grid-template-columns:1fr 2fr; gap:1rem; }
+
+
+.clearfix::after{ content:""; display:block; clear:both; }
