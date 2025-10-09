@@ -1,0 +1,3 @@
+In Capstone1 project I mostly focused on HTML part. I have learned how to crate tables, rows, and schedule with HTML. Additionally, I learned how to place images, arranging picture width, length, and height. Working with body and head parts. Creating sections, footer parts, header parts.
+
+In Capstone2, in addition to "Capstone1", I learned how to establish css file and style it. I learned how to set up background color. I learned the comman "!important" which is helpful to set up all pages. I Learned to use css forms. How to make picture - circular. 
