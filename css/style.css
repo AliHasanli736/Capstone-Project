@@ -208,6 +208,15 @@ table {
 }
 
 
+.profile-pic { 
+  border-radius: 50%;
+  width:200px;
+  height:200px;
+  transition: transform 0.3s ease;
+ }
+
+   .profile-pic:hover {
+     transform: scale(1.1); }
 
 
 
