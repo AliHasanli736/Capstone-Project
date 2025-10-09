@@ -206,3 +206,23 @@ table {
   grid-template-columns: repeat(7, 1fr);
   text-align: center;
 }
+
+
+
+
+
+
+/* Default footer styling (bütün səhifələr üçün) */
+footer {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+/* Xüsusi: yalnız index.html (body.home olan səhifə) üçün */
+body.home footer {
+  background-color: brown; /* istədiyin rəng */
+  color: black; /* istəsən fərqli mətn rəngi */
+}
+
