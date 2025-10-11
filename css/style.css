@@ -59,10 +59,6 @@ section {
   margin-bottom: 30px; /* Adds space between sections */
 }
 
-img[alt="Profile Picture"]:hover {
-  transform: scale(1.1);
-}
-
 /* Ensure the next section starts below the floated image */
 section:nth-of-type(2) {
   clear: both;
@@ -72,11 +68,6 @@ hr {
   width: 60%;
   border: 3px dashed #007bff;
   margin: 20px auto;
-}
-
-
-img[alt="Profile Picture"]:hover {
-  transform: scale(1.1);
 }
 
 /* ======== Tables (Education Page) ======== */
@@ -206,7 +197,9 @@ body.home footer {
   color: black; /* istəsən fərqli mətn rəngi */
 }
 
-img[alt="Profile Picture"] {
+/* ==== Profile Picture Styling ==== */
+img[alt="Profile Picture"],
+.profile-pic {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -217,6 +210,7 @@ img[alt="Profile Picture"] {
   transition: transform 0.3s ease;
 }
 
-img[alt="Profile Picture"]:hover {
+img[alt="Profile Picture"]:hover,
+.profile-pic:hover {
   transform: scale(1.1);
 }
