@@ -59,16 +59,6 @@ section {
   margin-bottom: 30px; /* Adds space between sections */
 }
 
-img[alt="Profile Picture"] {
-  float: left;
-  margin-right: 20px;
-  margin-bottom: 10px;
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  transition: transform 0.3s;
-}
-
 img[alt="Profile Picture"]:hover {
   transform: scale(1.1);
 }
@@ -84,13 +74,6 @@ hr {
   margin: 20px auto;
 }
 
-/* ======== Profile Picture ======== */
-img[alt="Profile Picture"] {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  transition: transform 0.3s;
-}
 
 img[alt="Profile Picture"]:hover {
   transform: scale(1.1);
@@ -156,7 +139,6 @@ input[type="submit"]:hover {
   background-color: #0b5ed7;
 }
 
-/* ======== Pseudo-element example ======== */
 h1::after {
   content: " ✨";
 }
@@ -208,12 +190,6 @@ table {
 }
 
 
-.profile-pic { 
-  border-radius: 50%;
-  width:200px;
-  height:200px;
-  transition: transform 0.3s ease;
- }
 
    .profile-pic:hover {
      transform: scale(1.1); }
@@ -235,11 +211,10 @@ body.home footer {
   color: black; /* istəsən fərqli mətn rəngi */
 }
 
-.profile-pic {
-  width: 150px;         /* şəkil ölçüsü (istəyə görə dəyiş) */
-  height: 150px;        /* bərabər saxla ki, dairə alınsın */
-  border-radius: 50%;   /* dairəvi edir 💫 */
-  object-fit: cover;    /* şəkil tam otursun, kəsilmədən */
-  border: 3px solid #007bff; /* (istəyə görə) mavi çərçivə */
+img[alt="Profile Picture"] {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #007bff;
 }
-
