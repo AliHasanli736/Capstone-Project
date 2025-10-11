@@ -171,11 +171,6 @@ section {
   position: relative;
 }
 
-section img[alt="Profile Picture"] {
-  float: left;
-  margin-right: 20px;
-}
-
 /* Flexbox for Education */
 table {
   display: flex;
@@ -217,4 +212,11 @@ img[alt="Profile Picture"] {
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #007bff;
+  float: left;
+  margin-right: 20px;
+  transition: transform 0.3s ease;
+}
+
+img[alt="Profile Picture"]:hover {
+  transform: scale(1.1);
 }
