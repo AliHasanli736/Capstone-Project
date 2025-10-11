@@ -235,3 +235,11 @@ body.home footer {
   color: black; /* istəsən fərqli mətn rəngi */
 }
 
+.profile-pic {
+  width: 150px;         /* şəkil ölçüsü (istəyə görə dəyiş) */
+  height: 150px;        /* bərabər saxla ki, dairə alınsın */
+  border-radius: 50%;   /* dairəvi edir 💫 */
+  object-fit: cover;    /* şəkil tam otursun, kəsilmədən */
+  border: 3px solid #007bff; /* (istəyə görə) mavi çərçivə */
+}
+
